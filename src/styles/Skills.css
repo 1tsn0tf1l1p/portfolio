@@ -1,13 +1,9 @@
-.right-panel {
-    padding: 3rem;
-}
-
-.skills-section, .experience-section {
+.skills-section {
     margin-bottom: 3rem;
     text-align: left;
 }
 
-.skills-section h3, .experience-section h3 {
+.skills-section h3 {
     font-size: 1.5em;
     margin-bottom: 1.5rem;
     border-bottom: 1px solid #eee;

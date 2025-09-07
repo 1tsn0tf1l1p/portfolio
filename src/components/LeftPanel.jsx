@@ -7,20 +7,19 @@ const LeftPanel = () => {
     return (
         <div className="left-panel">
             <img src={profileImage} alt="John Doe" className="profile-img" />
-            <h1>John Doe</h1>
-            <h2>Senior Software Engineer</h2>
+            <h1>Filip Čobanin</h1>
+            <h2>Campus Ambassador & Reddit Community Moderator @ JetBrains | Software Engineering student @ RAF</h2>
             <p className="bio">
-                15+ years building scalable systems and leading engineering teams.
-            </p>
+                Passionate about building robust backend systems and crafting seamless mobile experiences. Always experimenting with new tools to connect powerful backends with user-friendly apps.            </p>
             <div className="contact-info">
-                <p><FiMail className="icon" /> john.doe@example.com</p>
-                <p><FiMapPin className="icon" /> San Francisco, CA</p>
+                <p><FiMail className="icon" /> filipcobanin@icloud.com</p>
+                <p><FiMapPin className="icon" /> Belgrade, RS</p>
             </div>
             <div className="social-links">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/1tsn0tf1l1p" target="_blank" rel="noopener noreferrer">
                     <FiGithub className="social-icon" />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/filipcobanin/" target="_blank" rel="noopener noreferrer">
                     <FiLinkedin className="social-icon" />
                 </a>
             </div>
