@@ -1,0 +1,63 @@
+.left-panel {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 1rem;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.left-panel h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.left-panel h2 {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #888;
+    margin: 0 0 1rem 0;
+}
+
+.bio {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.contact-info {
+    margin-top: 1rem;
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.icon {
+    font-size: 1.2em;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-icon {
+    font-size: 1.5em;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #646cff;
+}

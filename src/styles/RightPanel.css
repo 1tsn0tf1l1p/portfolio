@@ -1,0 +1,90 @@
+.right-panel {
+    padding: 3rem;
+}
+
+.skills-section, .experience-section {
+    margin-bottom: 3rem;
+    text-align: left;
+}
+
+.skills-section h3, .experience-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+}
+
+.skills-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.skill-category h4 {
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: #555;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tags span {
+    background-color: #f0f0f0;
+    padding: 0.5em 1em;
+    border-radius: 15px;
+    font-size: 0.9em;
+}
+
+.timeline-item {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    border-left: 2px solid #e0e0e0;
+}
+
+.timeline-item:last-child {
+    border-left: 2px solid transparent;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -11px; /* Adjusts to center the circle on the line */
+    top: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #e0e0e0;
+}
+
+.timeline-content {
+    max-width: 70%;
+}
+
+.timeline-content h4 {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.1em;
+}
+
+.company {
+    font-weight: 600;
+    margin: 0 0 0.5rem 0;
+}
+
+.description {
+    color: #666;
+    margin: 0;
+}
+
+.timeline-date {
+    color: #888;
+    font-size: 0.9em;
+}
