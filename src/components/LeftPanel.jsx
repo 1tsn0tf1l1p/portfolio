@@ -10,7 +10,7 @@ const LeftPanel = () => {
             <h1>Filip Čobanin</h1>
             <h2>Campus Ambassador & Reddit Community Moderator @ JetBrains | Software Engineering student @ RAF</h2>
             <p className="bio">
-                Passionate about building robust backend systems and crafting seamless mobile experiences. Always experimenting with new tools to connect powerful backends with user-friendly apps.            </p>
+                Passionate about building robust backend systems and crafting seamless mobile experiences. Always experimenting with new tools to connect powerful backends with user-friendly apps.</p>
             <div className="contact-info">
                 <p><FiMail className="icon" /> filipcobanin@icloud.com</p>
                 <p><FiMapPin className="icon" /> Belgrade, RS</p>
