@@ -6,7 +6,7 @@ import profileImage from '../assets/profile.png';
 const LeftPanel = () => {
     return (
         <div className="left-panel">
-            <img src={profileImage} alt="John Doe" className="profile-img" />
+            <img src={profileImage} alt="Filip Cobanin" className="profile-img" />
             <h1>Filip Čobanin</h1>
             <h2>Campus Ambassador & Reddit Community Moderator @ JetBrains | Software Engineering student @ RAF</h2>
             <p className="bio">
