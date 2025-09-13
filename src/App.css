@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     min-height: 100vh;
-    background-color: #fdfdfd;
+    background-color: var(--color-bg);
 }
 
 .left-column {
@@ -11,32 +11,32 @@
     position: sticky;
     top: 0;
     height: 100vh;
-    background-color: #fff;
-    border-right: 1px solid #e0e0e0;
+    background-color: var(--color-surface);
+    border-right: 1px solid var(--color-border);
 }
 
 .right-column {
     flex-grow: 1;
     height: 100vh;
-    overflow-y: auto; /* This makes the right panel scrollable */
+    overflow-y: auto;
 }
 
-/* Responsive Design for Mobile */
 @media (max-width: 768px) {
     .app-container {
         flex-direction: column;
     }
 
     .left-column {
-        position: static; /* Remove sticky positioning */
+        position: static;
         width: 100%;
-        height: auto; /* Allow height to be determined by content */
+        max-width: none;
+        height: auto;
         border-right: none;
-        border-bottom: 1px solid #e0e0e0;
+        border-bottom: 1px solid var(--color-border);
     }
 
     .right-column {
-        height: auto; /* Allow height to be determined by content */
-        overflow-y: visible; /* Remove the specific scroll behavior */
+        height: auto;
+        overflow-y: visible;
     }
 }

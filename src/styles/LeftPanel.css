@@ -23,7 +23,7 @@
 .left-panel h2 {
     font-size: 1.2em;
     font-weight: 400;
-    color: #888;
+    color: var(--color-muted);
     margin: 0 0 1rem 0;
 }
 
@@ -54,10 +54,10 @@
 
 .social-icon {
     font-size: 1.5em;
-    color: #333;
+    color: var(--color-text);
     transition: color 0.3s;
 }
 
 .social-icon:hover {
-    color: #646cff;
+    color: var(--color-accent);
 }
