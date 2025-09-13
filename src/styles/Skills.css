@@ -34,4 +34,15 @@
     padding: 0.5em 1em;
     border-radius: 15px;
     font-size: 0.9em;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.skill-icon {
+    width: 1em;
+    height: 1em;
+    display: block;
+    line-height: 1;
+    flex-shrink: 0;
 }
