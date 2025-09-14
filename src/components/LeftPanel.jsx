@@ -8,7 +8,7 @@ const LeftPanel = () => {
         <div className="left-panel">
             <img src={profileImage} alt="Filip Cobanin" className="profile-img" />
             <h1>Filip Čobanin</h1>
-            <h2>Campus Ambassador & Reddit Community Moderator @ JetBrains | Software Engineering student @ RAF</h2>
+            <h2>Campus Ambassador & Reddit Community Moderator at JetBrains | Software Engineering student at RAF</h2>
             <p className="bio">
                 Passionate about building robust backend systems and crafting seamless mobile experiences. Always experimenting with new tools to connect powerful backends with user-friendly apps.</p>
             <div className="contact-info">
